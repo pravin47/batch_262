@@ -5,9 +5,9 @@ function pallin(){
 	rev=0
 	while [ $num -gt 0 ]
 	do
-		temp=`expr $num % 10`
-		rev=` expr $rev \*  10 + $temp`
-		num=` expr $num / 10`
+		temp=$(( $num%10 ))
+		rev=$(( $rev*10+$temp ))
+		num=$(( $num/10 ))
 	done
 		return $rev
 }

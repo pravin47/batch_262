@@ -5,13 +5,13 @@ sounds[cow]="moo"
 sounds[bird]="tweet"
 sounds[wolf]="howl"
 
-echo ${sounds[@]}
+#echo ${sounds[@]}
 
-echo "dogs sound" ${sounds[dog]}
+#echo "dogs sound" ${sounds[dog]}
 
-echo "animals" ${!sounds[@]}
+#echo "animals" ${!sounds[@]}
 
-echo "lenght of dictionary" ${#sounds[@]}
+#echo "lenght of dictionary" ${#sounds[@]}
 
 for i in ${!sounds[@]}
 do

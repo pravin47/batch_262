@@ -26,11 +26,11 @@ done
 	echo "Sorted array is"
 	for(( i=0; i<size; i++ ))
 	do
-		echo “${array[$i]}”
+		echo ${array[$i]}
 
 	done
 
- read -p "Enter the element to be searched :" search
+ read -p "Enter the element to be searched : " search
 	min=0
 	flag=0
 	max=$(($size-1))
